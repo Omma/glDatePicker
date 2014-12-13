@@ -627,7 +627,7 @@
 										var vDate = getRepeatDate(v, v.date);
 
 										if(vDate.time == cellDateTime) {
-											cellClass = (v.cssClass || 'special');
+											cellClass += ' special';
 											cellZIndex += 52;
 											specialData = v.data;
 										}
